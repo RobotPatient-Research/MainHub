@@ -1,0 +1,19 @@
+identifier: manikin_mainboard_portenta_stm32h747xx_m7
+name: "Manikin Mainboard Portenta STM32H747xx M7"
+type: mcu
+arch: arm
+toolchain:
+  - zephyr
+  - gnuarmemb
+ram: 512
+flash: 1024
+supported:
+  - gpio
+  - netif:eth
+  - i2c
+  - spi
+  - qspi
+  - memc
+  - usb_cdc
+  - usb_device
+vendor: robotpatient
