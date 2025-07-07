@@ -15,7 +15,6 @@ int main(void)
     k_sleep(K_MSEC(1000));
     can_transport_init();
     session_init();
-    // ENABLE PE3
 
 
     while (1)
